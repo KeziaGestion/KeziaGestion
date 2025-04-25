@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistance Administrative BTP</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header, footer { background: #0d3b66; color: white; padding: 1rem; text-align: center; }
+    main { padding: 2rem; max-width: 900px; margin: auto; }
+    h1, h2 { color: #0d3b66; }
+    section { margin-bottom: 3rem; }
+    .contact-form input, .contact-form textarea {
+      width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #0d3b66; color: white; padding: 0.7rem 1.5rem; border: none; border-radius: 5px; cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #095aa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Assistance Administrative pour les Pros du BTP</h1>
+    <p>Soulagez votre quotidien, concentrez-vous sur vos chantiers</p>
+  </header>  <main>
+    <section id="presentation">
+      <h2>Qui suis-je ?</h2>
+      <p>Spécialisée dans l'administratif du bâtiment, j'accompagne les artisans et entreprises du BTP dans la gestion quotidienne de leurs papiers : classement, facturation, rédaction, numérisation, et bien plus.</p>
+    </section><section id="prestations">
+  <h2>Mes services</h2>
+  <ul>
+    <li>Tri, classement et archivage de documents</li>
+    <li>Préparation pour le comptable : pièces et tableaux</li>
+    <li>Rédaction de courriers et de mails</li>
+    <li>Création de devis et factures</li>
+    <li>Gestion de boîte mail et alertes urgentes</li>
+    <li>Numérisation et réduction du papier</li>
+  </ul>
+  <p><strong>Packs disponibles :</strong> 5h à 150€ / 10h à 300€ / 20h à 600€</p>
+</section>
+
+<section id="contact">
+  <h2>Me contacter</h2>
+  <p>Besoin d'un coup de main ? Je suis à votre écoute.</p>
+  <form class="contact-form">
+    <input type="text" name="nom" placeholder="Nom / Entreprise" required>
+    <input type="email" name="email" placeholder="Adresse e-mail" required>
+    <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 - Assistance Administrative BTP - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
